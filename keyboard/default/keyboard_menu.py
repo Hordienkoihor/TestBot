@@ -7,8 +7,11 @@ kb_menu = ReplyKeyboardMarkup(
             KeyboardButton(text='0')
         ],
         [
-            KeyboardButton(text='!')
+            KeyboardButton(text='!'),
+            KeyboardButton(text='Штірліц')
+
         ],
+
     ],
     resize_keyboard=True
 )
